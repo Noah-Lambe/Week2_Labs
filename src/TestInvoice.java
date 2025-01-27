@@ -1,0 +1,93 @@
+public class TestInvoice {
+    public static void main(String[] args) {
+        InvoiceItem originalI1 = new InvoiceItem("1", "Air Fryer", 4, 50.00);
+        InvoiceItem originalI2 = new InvoiceItem("2", "Microwave Oven", 3, 100.00);
+        InvoiceItem originalI3 = new InvoiceItem("3", "Blender", 5, 30.00);
+        InvoiceItem originalI4 = new InvoiceItem("4", "Toaster", 2, 25.00);
+        InvoiceItem originalI5 = new InvoiceItem("5", "Dishwasher", 1, 300.00);
+        InvoiceItem originalI6 = new InvoiceItem("6", "Coffee Maker", 6, 40.00);
+        InvoiceItem originalI7 = new InvoiceItem("7", "Electric Kettle", 8, 20.00);
+        InvoiceItem originalI8 = new InvoiceItem("8", "Rice Cooker", 4, 70.00);
+        InvoiceItem originalI9 = new InvoiceItem("9", "Refrigerator", 1, 500.00);
+        InvoiceItem originalI10 = new InvoiceItem("10", "Washing Machine", 1, 600.00);
+        InvoiceItem originalI11 = new InvoiceItem("11", "Vacuum Cleaner", 3, 150.00);
+        InvoiceItem originalI12 = new InvoiceItem("12", "Air Conditioner", 2, 400.00);
+        InvoiceItem originalI13 = new InvoiceItem("13", "Ceiling Fan", 4, 50.00);
+        InvoiceItem originalI14 = new InvoiceItem("14", "Electric Grill", 3, 75.00);
+        InvoiceItem originalI15 = new InvoiceItem("15", "Pressure Cooker", 5, 60.00);
+        InvoiceItem originalI16 = new InvoiceItem("16", "Food Processor", 2, 120.00);
+        InvoiceItem originalI17 = new InvoiceItem("17", "Juicer", 6, 35.00);
+        InvoiceItem originalI18 = new InvoiceItem("18", "Hair Dryer", 7, 25.00);
+        InvoiceItem originalI19 = new InvoiceItem("19", "Iron", 4, 30.00);
+        InvoiceItem originalI20 = new InvoiceItem("20", "Sewing Machine", 1, 250.00);
+
+        InvoiceItem copyI1 = new InvoiceItem(originalI1);
+        InvoiceItem copyI2 = new InvoiceItem(originalI2);
+        InvoiceItem copyI3 = new InvoiceItem(originalI3);
+        InvoiceItem copyI4 = new InvoiceItem(originalI4);
+        InvoiceItem copyI5 = new InvoiceItem(originalI5);
+        InvoiceItem copyI6 = new InvoiceItem(originalI6);
+        InvoiceItem copyI7 = new InvoiceItem(originalI7);
+        InvoiceItem copyI8 = new InvoiceItem(originalI8);
+        InvoiceItem copyI9 = new InvoiceItem(originalI9);
+        InvoiceItem copyI10 = new InvoiceItem(originalI10);
+        InvoiceItem copyI11 = new InvoiceItem(originalI11);
+        InvoiceItem copyI12 = new InvoiceItem(originalI12);
+        InvoiceItem copyI13 = new InvoiceItem(originalI13);
+        InvoiceItem copyI14 = new InvoiceItem(originalI14);
+        InvoiceItem copyI15 = new InvoiceItem(originalI15);
+        InvoiceItem copyI16 = new InvoiceItem(originalI16);
+        InvoiceItem copyI17 = new InvoiceItem(originalI17);
+        InvoiceItem copyI18 = new InvoiceItem(originalI18);
+        InvoiceItem copyI19 = new InvoiceItem(originalI19);
+        InvoiceItem copyI20 = new InvoiceItem(originalI20);
+
+        System.out.println("Original Invoice Items:");
+        System.out.println(originalI1);
+        System.out.println(originalI2);
+        System.out.println(originalI3);
+        System.out.println(originalI4);
+        System.out.println(originalI5);
+        System.out.println(originalI6);
+        System.out.println(originalI7);
+        System.out.println(originalI8);
+        System.out.println(originalI9);
+        System.out.println(originalI10);
+        System.out.println(originalI11);
+        System.out.println(originalI12);
+        System.out.println(originalI13);
+        System.out.println(originalI14);
+        System.out.println(originalI15);
+        System.out.println(originalI16);
+        System.out.println(originalI17);
+        System.out.println(originalI18);
+        System.out.println(originalI19);
+        System.out.println(originalI20);
+
+        System.out.println();
+        System.out.println("Copied Invoice Items:");
+        System.out.println(copyI1);
+        System.out.println(copyI2);
+        System.out.println(copyI3);
+        System.out.println(copyI4);
+        System.out.println(copyI5);
+        System.out.println(copyI6);
+        System.out.println(copyI7);
+        System.out.println(copyI8);
+        System.out.println(copyI9);
+        System.out.println(copyI10);
+        System.out.println(copyI11);
+        System.out.println(copyI12);
+        System.out.println(copyI13);
+        System.out.println(copyI14);
+        System.out.println(copyI15);
+        System.out.println(copyI16);
+        System.out.println(copyI17);
+        System.out.println(copyI18);
+        System.out.println(copyI19);
+        System.out.println(copyI20);
+
+        System.out.println();
+        System.out.println("Total number of invoices created: " + InvoiceItem.getInvoiceCount());
+    }
+}
